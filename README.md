@@ -149,7 +149,18 @@ Explain: By Kishan [private] (Contact For Explaination.. )
 
 ```
 Q5. Write down an PSEUDO algorithm or code in language you know (C/C++/Java/Python) that reads in a markof a student (which is an integer between 0 and 100) and prints the corresponding grades (A-F).
+
+The mark-to-grade conversion table is as follows:
 ```
+
+| Grade | A | B | C | D | F |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Range | >= 80 | 65 - 79 | 50 - 64 | 40 - 49 | < 40 |
+
+#### 1. Modify the program so that it checks if the input is between 0 and 100. If not, it should ask the user to input again until the input is in the correct range. Use while statements.
+
+#### 2. Modify the program so that it repeats the above computation on 50 students. Use while statements.
+
 
 ```java
 
